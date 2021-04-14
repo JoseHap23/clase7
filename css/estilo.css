@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- MENÚ ----------- */
+.menu{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient( #038E34 ,#1EFA6B);
+}
+.menu .menu-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.menu .menu-link .link{
+    list-style-type: none;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu .menu-link .link:hover{
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* ---------- VIDEO ---------- */
+
+ .video{
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------- PRESENTACIÓN ----------- */
+.presentacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.presentacion .foto{
+    width: 45%;
+    height: 60%;
+    padding-left: 11%;
+}
+.div-imagen{
+    width: 75%;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: 5%;
+    box-shadow: 10px 5px 30px #000;
+    
+}
+.presentacion .foto .imagen{
+    width: 350px;
+    height: 350px;
+    transition: .3s;
+}
+.presentacion .foto .imagen:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.presentacion .descripcion{
+    width: 55%;
+}
+.presentacion .descripcion .titulo{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+.presentacion .descripcion .parrafo{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+.presentacion .descripcion .boton{
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0ff;
+    border: none;
+    color: #fff;
+    box-shadow: 2px 2px 20px #000;
+    transition: all .2s;
+    margin-top: 10px;
+    outline:none;
+}
+.presentacion .descripcion .boton:hover{
+    font-size: 38px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+ 
+/* ----------- CONTACTO ------------ */
+.contacto{
+    width: 100%;
+    height: 100vh;
+    background-color: #0ff; 
+    padding-top: 65px;   
+}
+.contacto .cuadro{
+    width: 40%;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+}
+.contacto .cuadro .titulo{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+#name,
+#email,
+#telefono{
+    display: block;
+    width: 90%;
+    height: 10%;
+    margin: 40px auto 40px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+    border: 4px solid #fff;
+    outline:none;
+}
+#name::placeholder,
+#email::placeholder,
+#telefono::placeholder{
+    color:#000 ;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+}
+#name:hover,
+#email:hover,
+#telefono:hover{
+    border: 5px solid #000;
+}
+.contacto .cuadro .boton{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #0ff;
+    color: #fff;
+    font-size: 35px;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 13px #022;
+    outline:none;
+    transition: .4s;
+    font-family: 'Signika', sans-serif;
+}
+.contacto .cuadro .boton:hover{
+    background-color: #0dfb;
+    cursor: pointer;
+}
+.contacto .cuadro .boton:active{
+    width: 49%;
+    height: 9%;
+    margin-top: 53px;
+    font-size: 33px;
+    box-shadow: 2.5px 2.5px 7px #022;
+}
+
+/* ----------- FOOTER ---------- */
+.footer{
+    background-color: #000;
+    width: 100%;
+    height: 25vh;
+}
+.footer-centro{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.footer-centro .title{
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-family: 'Crete Round', serif;
+}
+.footer .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .container .redes-sociales{
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.footer .logo-instagram, .footer .logo-facebook, .footer .logo-twitter{
+    transition: all .3s;
+}
+.footer .container .redes-sociales:hover{
+    cursor:pointer;
+}
+.footer .logo-instagram:hover{
+    color: #a0f;
+    font-size: 38px;
+    margin-right: 2px;
+}
+.footer .logo-facebook:hover{
+    color: #00fb;
+    font-size: 38px;
+    margin-right: 2px;
+}
+.footer .logo-twitter:hover{
+    color: #0af;
+    font-size: 38px;
+    margin-right: 2px;
+}
+.footer .derechos{
+    color: #fff;
+    text-align: center;
+}
+
+
+
